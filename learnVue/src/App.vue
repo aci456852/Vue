@@ -1,15 +1,16 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-view/>
-    <h2>{{msg}}</h2>
-　　　　<learn></learn>
+    <router-link to="/learn">Go to view1</router-link>
+		<router-link to="/learn2">Go to view2</router-link>
+		<router-view></router-view>
   </div>
 </template>
 
 <script>
-	<import learn from './components/learn.vue'>
-	export default {
+	import learn from './components/learn.vue'
+	import learn2 from './components/learn2.vue'
+	/*export default {
 　　name: 'app',
 　　data () {
 　　　　return {
@@ -17,7 +18,7 @@
 　　　　}
 　　},
 　　components: { learn }
-}
+}*/
 </script>
 
 <style>

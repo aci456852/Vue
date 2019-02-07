@@ -1,13 +1,13 @@
 <template>
-  <div>显示1 ：{{ message }}</div>
+  <div>显示2 ：{{ message }}</div>
 </template>
 
 <script type="text/javascript">
   export default { 
-    name: "learn",
+    name: "learn2",
     data (){ 
       return {
-        message: "lzy冲鸭"
+        message: "冲鸭路由"
       }
     }
   }
