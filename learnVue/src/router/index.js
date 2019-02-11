@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import reverse from '@/components/bind/reverse'
+import vfor from '@/components/learnmore/v-for'
 
 
 Vue.use(Router)
@@ -9,8 +9,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'reverse',
-      component: reverse
+      name: 'v-for',
+      component: vfor
     }
   ]
 })
