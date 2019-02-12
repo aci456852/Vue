@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import vfor from '@/components/learnmore/v-for'
+import computer from '@/components/learnmore/computer'
 
 
 Vue.use(Router)
@@ -9,8 +9,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'v-for',
-      component: vfor
+      name: 'computer',
+      component: computer
     }
   ]
 })
