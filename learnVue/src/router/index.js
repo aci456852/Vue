@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import computer from '@/components/learnmore/computer'
+import watch from '@/components/learnmore/watch'
 
 
 Vue.use(Router)
@@ -9,8 +9,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'computer',
-      component: computer
+      name: 'watch',
+      component: watch
     }
   ]
 })
