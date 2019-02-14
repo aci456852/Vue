@@ -26,9 +26,8 @@ var vm = new Vue({
             this.meters = val;
         }
     }
-    });
-    // $watch 是一个实例方法
-    vm.$watch('kilometers', function (newValue, oldValue) {
+   });
+vm.$watch('kilometers', function (newValue, oldValue) { // $watch 是一个实例方法
     // 这个回调将在 vm.kilometers 改变后调用
     document.getElementById ("info").innerHTML = "修改前值为: " + oldValue + "，修改后值为: " + newValue;
 })
