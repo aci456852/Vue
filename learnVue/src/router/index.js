@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import input from '@/components/learnmore/input_style'
+import component from '@/components/learnmore/component'
 
 
 Vue.use(Router)
@@ -9,8 +9,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'input',
-      component: input
+      name: 'component',
+      component: component
     }
   ]
 })
