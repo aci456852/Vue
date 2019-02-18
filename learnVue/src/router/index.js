@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import response from '@/components/learnmore/response'
+import NavigationMenu from '@/components/testmore/NavigationMenu'
 
 
 Vue.use(Router)
@@ -9,8 +9,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'response',
-      component: response
+      name: 'NavigationMenu',
+      component: NavigationMenu
     }
   ]
 })
