@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import NavigationMenu from '@/components/testmore/NavigationMenu'
+import EditText from '@/components/testmore/EditText'
 
 
 Vue.use(Router)
@@ -9,8 +9,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'NavigationMenu',
-      component: NavigationMenu
+      name: 'EditText',
+      component: EditText
     }
   ]
 })
